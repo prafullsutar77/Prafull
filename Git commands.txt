@@ -1,0 +1,109 @@
+git config --global user.name "username"
+
+git config --global user.email "email"
+
+
+1.git clone url
+ git remoter add origin "url"
+
+from working area to stagging area
+
+git add filename
+
+git add .
+
+
+from stagging area to local repo
+
+git commit -m "new line added"
+
+
+from local repo to remote repo
+
+
+git push origin HEAD
+
+
+interview
+from remote repo to local repo
+
+git pull origin HEAD
+
+git clone and git pull
+===============================
+
+git clone --is used to create local repo,it is an one time activity
+
+git pull ---> to pull updated changes to local repo
+ 
+git branch
+=================================
+
+git branch <branch name>  /e.g.develop
+
+git checkout develop
+
+git checkout ------------multiplt purpose
+
+
+git checkout branchname ----->swithed
+
+git checkout filename ----> to revert the changes to original state
+
+HARD reset 
+git reset --hard HEAD~1 
+git reset --soft file
+
+
+========================================================================
+git fetch    vs git pull ---->imp
+
+
+git fetch pull recent updates but will not change local repo/working dir
+
+
+git pull recent updates will change local repo
+
+
+RESET:
+===================================================
+git reset
+revert change from stagging area to working area
+
+===================================================
+git reset --soft HEAD~1 
+
+revert change from local repo to stagging area
+====================================================
+
+git reset --hard HEAD~1
+revert all the change from local repo to working area --> origin state
+====================================================
+
+git config --global credential.helper cache
+
+
+git config --global --unset credential.helper
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
